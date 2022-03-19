@@ -77,5 +77,36 @@ a{
 }
 
 .P1{
-    list-style:none;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Ad{
+    width: 740px;
+    height: 100px;
+    background-color: #202020;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+.add{
+    margin-left: 6px;
+    margin-top: 4px;
+    padding-top: 4px;
+}
+
+.Player-Out{
+    width: 850px;
+    height: 500px;
+    margin-left: 230px;
+    margin-top: 8px;
+    background-color: #202020;
+}
+
+.ep-button{
+
+}
+
+#Popular-A{
+    display: inline-flex;
 }
