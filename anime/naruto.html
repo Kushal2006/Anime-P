@@ -7,6 +7,7 @@
     <title>Naruto</title>
     <link rel="icon" href="/images/Favicon.png">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/demo.css" />
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -46,9 +47,10 @@
 
         <!-- Player -->
 
-        <div class="Player-Out">
+        <div class="out-box">
             <div class="video8281">
-                <div style="position: relative; padding-top: 56.25%;"><iframe src="https://iframe.mediadelivery.net/embed/29838/a98b55eb-021f-4fdb-bd3f-2bbf7e88cef5?autoplay=false" loading="lazy" style="border: none; position: absolute; top: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+                <video id="player" playsinline controls data-poster="/path/to/poster.jpg">
+                    <source src="https://storageforan.s3.ap-south-1.amazonaws.com/Naruto/EP.1.v1.1639177914.1080p.mp4" type="video/mp4" />
             </div>
         </div>
 
@@ -62,5 +64,6 @@
                 <button class="ep-button">EP4</button>
             </div>
         </div>
+<script src="https://cdn.plyr.io/3.6.12/demo.js" crossorigin="anonymous"></script>
 </body>
 </html>
