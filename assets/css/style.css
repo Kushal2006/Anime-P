@@ -1,0 +1,25 @@
+.body{
+    background-color: #D3DEDC;
+    margin: 0px;
+}
+
+#topcontainer-navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.out-search-navbar-top{
+    margin-right: 70px;
+}
+
+.detail{
+    text-align: center;
+}
+
+.data-4-trending-result{
+    display: grid;
+    margin-top: 30px;
+    grid-gap: 5px;
+    grid-template-columns: 150px 150px;
+}
