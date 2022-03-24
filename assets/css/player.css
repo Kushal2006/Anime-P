@@ -22,7 +22,8 @@
 }
 
 .ep-buttons{
-    margin-top: 18px;
+    margin-top: 20px;
+    margin-left: 13px;
     display: grid;
     grid-template-columns: repeat(15, 50px);
     grid-template-rows: repeat(15, 40px);
