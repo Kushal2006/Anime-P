@@ -1,0 +1,43 @@
+.out-ads-above-player{
+    width: 728px;
+    height: 90px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.out-player-below-ads{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 820px;
+    height: 450px;
+    background-color: black;
+}
+
+.all-items-to-move{
+    width: 820px;
+    height: 220px;
+    margin-top: 3px;
+    margin-right: 10px;
+    background-color: #D3DEDC;
+}
+
+.ep-buttons{
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: repeat(15, 50px);
+    grid-template-rows: repeat(15, 40px);
+    gap: 3px;
+}
+
+.ep-buttons button{
+    background-color: #92A9BD;
+    border-color: #92A9BD;
+}
+
+.all-features-for-move{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 15px;
+}

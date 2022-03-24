@@ -1,0 +1,57 @@
+.body{
+    background-color: #D3DEDC;
+    margin: 0px;
+}
+
+#topcontainer-navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.out-search-navbar-top{
+    margin-right: 70px;
+}
+
+.detail{
+    text-align: center;
+}
+
+.data-4-trending-result{
+    display: grid;
+    margin-top: 40px;
+    grid-gap: 7px;
+    grid-template-columns: repeat(6, 150px)
+
+}
+
+.data-4-trending-result li{
+    border: 5px #D3DEDC solid;
+    background-color: #D3DEDC;
+    height: 260px;
+}
+
+.data-4-trending-result h3{
+    position: relative;
+    top: 2px;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+#footer-container{
+    display: contents;
+}
+
+#footer-container h4{
+    margin-top: 30px;
+}
+
+#footer-container h5{
+    margin-top: 0px;
+}
+
+.dontlookhere{
+    width: 100%;
+    height: 50px;
+    background-color: #D3DEDC;
+}
