@@ -22,8 +22,8 @@
 }
 
 .ep-buttons{
-    margin-top: 20px;
-    margin-left: 13px;
+    margin-top: 7px;
+    margin-left: 7px;
     display: grid;
     grid-template-columns: repeat(15, 50px);
     grid-template-rows: repeat(15, 40px);
@@ -41,4 +41,14 @@
     flex-direction: row;
     justify-content: flex-end;
     width: 15px;
+}
+
+.all-items-to-move{
+    overflow: hidden;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+#footer-container{
+    margin-bottom: 30px;
 }
